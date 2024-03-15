@@ -488,8 +488,10 @@ transform: translateY(0);
 .footer-social-box {
     width: 208px;
     height: 80px;
-    margin: 110px 120px 122px 120px;
-    
+    margin-top: 110px;
+    margin-right: 120px;
+    margin-bottom: 132px;
+    margin-left: 120px;
 }
 
 .footer-icon-item {
