@@ -491,7 +491,7 @@ transform: translateY(0);
     padding: 0;
     border: 0;
     margin: 0;
-    
+    margin-right: 80px;
 }
 
 .footer-icon-item {
@@ -535,3 +535,63 @@ transform: translateY(0);
 .team-icon {
     fill: #F4F4FD;
 }
+
+.subscribe-wraper {}
+
+.subscribe-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+    }
+
+
+.subscribe-laibel {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.subscribe-input {
+    border: 1px solid #fff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: inherit;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding: 8px 16px;
+}
+
+.submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 165px;
+    height: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.sub-btn-text {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
